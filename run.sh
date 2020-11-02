@@ -60,7 +60,7 @@ echo "Keeping the GUI"
 fi
 
 echo "4. Install goodies | ntp docker docker-compose glances htop bmon jq whois yay ufw fail2ban git bc nmap smartmontools gnome-disk-utility"
-apt-get install -yqq qalc dialog ncdu msr-tools ddrescue pigz screen haproxy net-tools ntp docker.io docker-compose glances htop bmon jq whois yay ufw fail2ban git bc nmap smartmontools qemu-guest-agent iotop gnome-disk-utility
+apt-get install -yqq qalc dialog ncdu msr-tools pigz screen haproxy net-tools ntp docker.io docker-compose glances htop bmon jq whois yay ufw fail2ban git bc nmap smartmontools qemu-guest-agent iotop gnome-disk-utility
 
 echo "5. Install base-devel for using yay and building packages with AUR"
 apt-get install -yqq autoconf automake binutils bison fakeroot file findutils flex gawk gcc gettext grep groff gzip libtool m4 make pacman patch pkgconf sed sudo systemd texinfo util-linux which 
